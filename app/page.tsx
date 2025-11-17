@@ -261,7 +261,7 @@ export default function Home() {
     fontWeight: 'bold',
     color: '#007736'
   }}>
-    今月の営業日やイベント情報はこちら！
+    今月の営業日やイベント情報は<br />こちら！
   </p>
   
   {/* Instagram埋め込み */}
