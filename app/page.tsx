@@ -355,7 +355,7 @@ export default function Home() {
         fontSize: '1.4rem', 
         fontWeight: 'bold'
       }}>
-        880円<span style={{ fontSize: '0.8rem', fontWeight: 'normal' }}> (税込)</span>
+        880円<br /><span style={{ fontSize: '0.8rem', fontWeight: 'normal' }}> (税込)</span>
       </div>
     </div>
     
@@ -377,7 +377,7 @@ export default function Home() {
         fontSize: '1.4rem', 
         fontWeight: 'bold'
       }}>
-        7,040円<span style={{ fontSize: '0.8rem', fontWeight: 'normal' }}> (税込)</span>
+        7,040円<br /><span style={{ fontSize: '0.8rem', fontWeight: 'normal' }}> (税込)</span>
       </div>
     </div>
   </div>
