@@ -32,7 +32,7 @@ export default function Home() {
         }}>
           <p style={{ marginBottom: '20px' }}>
             <strong style={{ fontSize: '20px' }}>帯広市の麻雀サロンかっぱの<br />
-            ホームページへようこそ！</strong><br />
+            ホームページへようこそ！</strong><br /><br />
             当店は初心者から上級者まで、<br />どなたでも楽しめるような<br />
             アットホームな帯広市の麻雀店です！<br />
             日本プロ麻雀連盟公式ルールの勉強会などの<br />イベントを
