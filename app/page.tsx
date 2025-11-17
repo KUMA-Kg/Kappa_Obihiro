@@ -317,72 +317,75 @@ export default function Home() {
   </div>
 </div>
 
-       {/* ⑥ 料金システム */}
-<div className="section" style={{
-  backgroundColor: 'white',
-  padding: '20px',
-  borderRadius: '8px',
-  marginBottom: '30px',
-  textAlign: 'center'
-}}>
-  <h2 className="section-title">料金システム</h2>
-  
-  <div style={{
-    display: 'flex',
-    flexDirection: 'column',
-    gap: '20px',
-    backgroundColor: 'white',
-    padding: '30px',
-    borderRadius: '8px',
-    maxWidth: '600px',
-    margin: '0 auto'
-  }}>
-    {/* 1時間料金 */}
-    <div style={{
-      display: 'flex',
-      justifyContent: 'space-between',
-      alignItems: 'center',
-      padding: '15px 25px',
-      backgroundColor: '#f5f5f5',
-      borderRadius: '8px',
-      borderLeft: '5px solid #007736'
-    }}>
-      <div>
-        <h3 style={{ fontSize: '1.1rem', color: '#007736', marginBottom: '5px' }}>1時間</h3>
-        <p style={{ fontSize: '0.8rem', color: '#666' }}>（お一人様 220円）</p>
-      </div>
-      <div style={{ 
-        fontSize: '1.1rem', 
-        fontWeight: 'bold'
-      }}>
-        880円<span style={{ fontSize: '0.8rem', fontWeight: 'normal' }}> (税込)</span>
-      </div>
-    </div>
-    
-    {/* 打ち放題 */}
-    <div style={{
-      display: 'flex',
-      justifyContent: 'space-between',
-      alignItems: 'center',
-      padding: '15px 25px',
-      backgroundColor: '#f5f5f5',
-      borderRadius: '8px',
-      borderLeft: '5px solid #007736'
-    }}>
-      <div>
-        <h3 style={{ fontSize: '1.1rem', color: '#007736', marginBottom: '5px' }}>打ち放題</h3>
-        <p style={{ fontSize: '0.8rem', color: '#666' }}>（1日フリータイム）</p>
-      </div>
-      <div style={{ 
-        fontSize: '1.1rem', 
-        fontWeight: 'bold'
-      }}>
-        7,040円<span style={{ fontSize: '0.8rem', fontWeight: 'normal' }}> (税込)</span>
-      </div>
-    </div>
-  </div>
-</div>
-
+        {/* ⑥ 料金システム */}
+        <div className="section" style={{
+          backgroundColor: 'white',
+          padding: '20px 15px',
+          borderRadius: '8px',
+          marginBottom: '30px',
+          textAlign: 'center'
+        }}>
+          <h2 className="section-title" style={{ fontSize: 'clamp(20px, 5vw, 24px)' }}>料金システム</h2>
+          
+          <div style={{
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '15px',
+            backgroundColor: 'white',
+            padding: '20px 10px',
+            borderRadius: '8px',
+            maxWidth: '600px',
+            margin: '0 auto'
+          }}>
+            {/* 1時間料金 */}
+            <div style={{
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'center',
+              padding: '15px',
+              backgroundColor: '#f5f5f5',
+              borderRadius: '8px',
+              borderLeft: '5px solid #007736',
+              gap: '10px'
+            }}>
+              <div style={{ textAlign: 'left' }}>
+                <h3 style={{ fontSize: 'clamp(16px, 4vw, 18px)', color: '#007736', marginBottom: '5px' }}>1時間</h3>
+                <p style={{ fontSize: 'clamp(11px, 2.5vw, 13px)', color: '#666', margin: 0 }}>（お一人様 220円）</p>
+              </div>
+              <div style={{ 
+                fontSize: 'clamp(18px, 4.5vw, 22px)', 
+                fontWeight: 'bold',
+                whiteSpace: 'nowrap'
+              }}>
+                880円<span style={{ fontSize: 'clamp(11px, 2.5vw, 13px)', fontWeight: 'normal' }}> (税込)</span>
+              </div>
+            </div>
+            
+            {/* 打ち放題 */}
+            <div style={{
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'center',
+              padding: '15px',
+              backgroundColor: '#f5f5f5',
+              borderRadius: '8px',
+              borderLeft: '5px solid #007736',
+              gap: '10px'
+            }}>
+              <div style={{ textAlign: 'left' }}>
+                <h3 style={{ fontSize: 'clamp(16px, 4vw, 18px)', color: '#007736', marginBottom: '5px' }}>打ち放題</h3>
+                <p style={{ fontSize: 'clamp(11px, 2.5vw, 13px)', color: '#666', margin: 0 }}>（1日フリータイム）</p>
+              </div>
+              <div style={{ 
+                fontSize: 'clamp(18px, 4.5vw, 22px)', 
+                fontWeight: 'bold',
+                whiteSpace: 'nowrap'
+              }}>
+                7,040円<span style={{ fontSize: 'clamp(11px, 2.5vw, 13px)', fontWeight: 'normal' }}> (税込)</span>
+              </div>
+            </div>
+          </div>
+        </div>
         {/* ⑦ アクセスマップ */}
         <div className="section" style={{
           backgroundColor: 'white',
