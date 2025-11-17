@@ -1,0 +1,37 @@
+# 麻雀サロンかっぱ - 必要な画像ファイル一覧
+
+以下のファイルを `/public/images/` ディレクトリに配置することで、画像が自動的に表示されます。
+
+## 基本画像
+- `/public/images/logo.png` - サイトロゴ（ナビゲーションに表示）
+
+## トップページ画像
+- `/public/images/main-image1.jpg` - メインビジュアル画像1（スライドショー用）
+- `/public/images/main-image2.jpg` - メインビジュアル画像2（スライドショー用）
+- `/public/images/main-image3.jpg` - メインビジュアル画像3（スライドショー用）
+- `/public/images/manga1.jpg` - 十勝ひとりぼっち農園 漫画画像1
+- `/public/images/manga2.jpg` - 十勝ひとりぼっち農園 漫画画像2
+- `/public/images/manga3.jpg` - 十勝ひとりぼっち農園 漫画画像3
+- `/public/images/pro1.jpg` - 植田稔宏プロの画像
+- `/public/images/pro2.jpg` - 髙橋聡志プロの画像
+
+## 店舗紹介ページ画像
+- `/public/images/shop-image.jpg` - 店舗メイン画像
+- `/public/images/shop-interior1.jpg` - 店内写真1
+- `/public/images/shop-interior2.jpg` - 店内写真2
+- `/public/images/shop-interior3.jpg` - 店内写真3
+- `/public/images/shop-interior4.jpg` - 店内写真4
+- `/public/images/shop-interior5.jpg` - 店内写真5
+- `/public/images/shop-interior6.jpg` - 店内写真6
+- `/public/images/shop-interior7.jpg` - 店内写真7
+- `/public/images/shop-interior8.jpg` - 店内写真8
+
+## フッター装飾画像
+- `/public/images/tile1.png` - 麻雀牌の装飾（左上）
+- `/public/images/tile2.png` - 麻雀牌の装飾（右上）
+- `/public/images/tile3.png` - 麻雀牌の装飾（左下）
+- `/public/images/tile4.png` - 麻雀牌の装飾（右下）
+- `/public/images/stick1.png` - 麻雀棒の装飾（下中央）
+
+## SNSアイコン
+- `/public/images/twitter-x.svg` - Twitter/Xアイコン（既に含まれています）
