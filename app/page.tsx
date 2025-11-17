@@ -352,10 +352,10 @@ export default function Home() {
         <p style={{ fontSize: '0.8rem', color: '#666' }}>（お一人様 220円）</p>
       </div>
       <div style={{ 
-        fontSize: '1.4rem', 
+        fontSize: '1.1rem', 
         fontWeight: 'bold'
       }}>
-        880円<br /><span style={{ fontSize: '0.8rem', fontWeight: 'normal' }}> (税込)</span>
+        880円<span style={{ fontSize: '0.8rem', fontWeight: 'normal' }}> (税込)</span>
       </div>
     </div>
     
@@ -374,10 +374,10 @@ export default function Home() {
         <p style={{ fontSize: '0.8rem', color: '#666' }}>（1日フリータイム）</p>
       </div>
       <div style={{ 
-        fontSize: '1.4rem', 
+        fontSize: '1.1rem', 
         fontWeight: 'bold'
       }}>
-        7,040円<br /><span style={{ fontSize: '0.8rem', fontWeight: 'normal' }}> (税込)</span>
+        7,040円<span style={{ fontSize: '0.8rem', fontWeight: 'normal' }}> (税込)</span>
       </div>
     </div>
   </div>
