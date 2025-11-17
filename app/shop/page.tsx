@@ -278,7 +278,7 @@ export default function Shop() {
           </div>
         </div>
         
-        app/shop/page.tsx のGoogleマップセクションを探して、以下のように修正してください：
+
 tsx{/* Googleマップ */}
 <div className="section" style={{
   backgroundColor: 'white',
