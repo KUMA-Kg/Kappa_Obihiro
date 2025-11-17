@@ -157,7 +157,11 @@ export default function Home() {
               <h3 style={{ color: '#007736', marginBottom: '10px' }}>植田 稔宏</h3>
               <p style={{ fontSize: '14px', lineHeight: '1.6', marginBottom: '15px' }}>
                 日本プロ麻雀連盟所属<br />
-                北海道本部所属
+                北海道本部所属<br /><br />
+                
+                たくさんの方々に麻雀の楽しさを伝えていけたらと思います！<br/>
+                麻雀初心者の方にも親切・丁寧にご指導いたしますので、<br/>
+                気軽に遊びに来てくださいね！
               </p>
               <a 
                 href="https://x.com/2corosuce2" 
@@ -208,7 +212,11 @@ export default function Home() {
               <h3 style={{ color: '#007736', marginBottom: '10px' }}>髙橋 聡志</h3>
               <p style={{ fontSize: '14px', lineHeight: '1.6', marginBottom: '15px' }}>
                 日本プロ麻雀連盟所属<br />
-                北海道本部所属
+                北海道本部所属<br /><br />
+                麻雀店にまだ足を踏み入れたことがない…<br/>
+                ひとりで行くのは不安…<br/>
+                大丈夫です！！かっぱはそんなあなたをスタッフ一同笑顔でお迎えいたしますので是非一度遊びに来てみてください！
+
               </p>
               <a 
                 href="https://x.com/satoshi19840502" 
