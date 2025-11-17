@@ -279,7 +279,7 @@ export default function Shop() {
         </div>
         
 
-tsx{/* Googleマップ */}
+{/* Googleマップ */}
 <div className="section" style={{
   backgroundColor: 'white',
   padding: '20px',
