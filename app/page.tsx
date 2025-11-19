@@ -110,9 +110,9 @@ export default function Home() {
           borderLeft: '4px solid #007736',
           marginTop: '10px'
         }}>
-          ✓ 静音性の高い配牌<br />
-          ✓ 高速で正確な牌山生成<br />
-          ✓ 視認性に優れたLEDデザイン<br /><br />
+          静音性の高い配牌<br />
+          高速で正確な牌山生成<br />
+       　 視認性に優れたLEDデザイン<br /><br />
           
           卓上環境が大幅に向上し、より快適でスムーズな対局をお楽しみいただけます。
         </span>
@@ -121,27 +121,6 @@ export default function Home() {
   </div>
 </div>
 
-        
-        {/* ② ウェルカムテキスト */}
-        <div style={{ 
-          textAlign: 'center', 
-          margin: '40px 0', 
-          lineHeight: '1.8',
-          padding: '20px',
-          backgroundColor: 'rgba(255,255,255,0.7)',
-          borderRadius: '8px'
-        }}>
-          <p style={{ marginBottom: '20px' }}>
-            <strong style={{ fontSize: '20px' }}>帯広市の麻雀サロンかっぱの<br />
-            ホームページへようこそ！</strong><br /><br />
-            当店は初心者から上級者まで、<br />どなたでも楽しめるような<br />
-            アットホームな帯広市の麻雀店です！<br />
-            日本プロ麻雀連盟公式ルールの勉強会などの<br />イベントを
-            定期的に開催していますので、<br />皆様のご来店を<br />
-            スタッフ一同、心よりお待ちしております！
-          </p>
-        </div>
-        
 {/* ③ 漫画掲載紹介 */}
 <div className="section" style={{
   backgroundColor: 'white',
