@@ -21,6 +21,86 @@ export default function Home() {
       </div>
 
       <div style={{ maxWidth: '963px', margin: '0 auto', padding: '40px 20px' }}>
+{/* 雀卓紹介セクション - 新規追加 */}
+<div className="section" style={{
+  backgroundColor: 'white',
+  padding: '30px 15px',
+  borderRadius: '8px',
+  marginBottom: '30px'
+}}>
+  <h2 className="section-title" style={{ 
+    textAlign: 'center', 
+    fontSize: 'clamp(20px, 5vw, 26px)',
+    marginBottom: '30px',
+    color: '#007736'
+  }}>
+    設備紹介
+  </h2>
+  
+  <div style={{
+    display: 'flex',
+    gap: '30px',
+    alignItems: 'center',
+    flexWrap: 'wrap',
+    justifyContent: 'center'
+  }}>
+    {/* 雀卓画像 */}
+    <div style={{ 
+      flex: '1 1 300px', 
+      maxWidth: '450px',
+      minWidth: '250px'
+    }}>
+      <img 
+        src="/images/REXⅢ.png" 
+        alt="AMOS REXⅢ 全自動雀卓" 
+        style={{ 
+          width: '100%', 
+          height: 'auto',
+          borderRadius: '8px',
+          boxShadow: '0 4px 12px rgba(0,0,0,0.15)'
+        }} 
+      />
+    </div>
+    
+    {/* 説明文 */}
+    <div style={{ 
+      flex: '1 1 350px',
+      maxWidth: '500px',
+      minWidth: '280px'
+    }}>
+      <p style={{ 
+        lineHeight: '1.9', 
+        fontSize: 'clamp(15px, 3.5vw, 17px)',
+        color: '#333'
+      }}>
+        当店では全卓、<strong style={{ color: '#d32f2f', fontSize: 'clamp(16px, 4vw, 19px)' }}>Mリーグでも採用されている</strong>全自動雀卓<br />
+        <strong style={{ 
+          fontSize: 'clamp(18px, 4.5vw, 22px)', 
+          color: '#007736',
+          display: 'inline-block',
+          margin: '8px 0'
+        }}>「AMOS REXⅢ」</strong>を導入しております。<br /><br />
+        
+        <span style={{ 
+          display: 'block',
+          padding: '15px',
+          backgroundColor: '#f5f5f5',
+          borderRadius: '8px',
+          borderLeft: '4px solid #007736',
+          marginTop: '10px'
+        }}>
+          ✓ 静音性の高い配牌<br />
+          ✓ 高速で正確な牌山生成<br />
+          ✓ 視認性に優れたLEDデザイン<br /><br />
+          
+          卓上環境が大幅に向上し、より快適でスムーズな対局をお楽しみいただけます。
+        </span>
+      </p>
+    </div>
+  </div>
+</div>
+
+        
         {/* ② ウェルカムテキスト */}
         <div style={{ 
           textAlign: 'center', 
