@@ -51,24 +51,14 @@ export default function Shop() {
                     padding: '15px', 
                     textAlign: 'left',
                     width: '120px'
-                 <p style={{ marginBottom: '8px' }}>
-  <strong>住所:</strong> 
-  <a 
-    href="https://www.google.com/maps/search/?api=1&query=北海道帯広市西二条南11丁目1+清水ビル3F" 
-    target="_blank" 
-    rel="noopener noreferrer"
-    style={{ 
-      color: '#007736', 
-      textDecoration: 'underline',
-      marginLeft: '5px',
-      transition: 'color 0.3s'
-    }}
-    onMouseEnter={(e) => e.currentTarget.style.color = '#005524'}
-    onMouseLeave={(e) => e.currentTarget.style.color = '#007736'}
-  >
-    北海道帯広市西二条南11丁目1　清水ビル3F
-  </a>
-</p>
+                  }}>住所</th>
+                  <td style={{ padding: '15px' }}>北海道帯広市西二条南11丁目1　清水ビル3F</td>
+                </tr>
+                <tr style={{ borderBottom: '1px solid #eee' }}>
+                  <th style={{ 
+                    backgroundColor: '#f5f5f5', 
+                    padding: '15px', 
+                    textAlign: 'left'
                   }}>電話番号</th>
                   <td style={{ padding: '15px' }}>0155-27-7337</td>
                 </tr>
@@ -80,7 +70,6 @@ export default function Shop() {
                   }}>営業時間</th>
                   <td style={{ padding: '15px' }}>11:00-24:00</td>
                 </tr>
-
               </tbody>
             </table>
           </div>
