@@ -4,8 +4,27 @@ import Header from '@/components/Header';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: '麻雀サロンかっぱ',
-  description: '帯広市の麻雀サロン「かっぱ」の公式ウェブサイト。初心者から上級者まで楽しめるアットホームな麻雀店です。',
+  title: '麻雀サロンかっぱ | 帯広市の麻雀店',
+  description: '帯広市の麻雀サロン「かっぱ」。Mリーグ採用のAMOS REXⅢ全自動雀卓完備。初心者から上級者まで楽しめるアットホームな麻雀店。JR帯広駅北口より徒歩3分。',
+  icons: {
+    icon: '/images/logo.png',
+  },
+  openGraph: {
+    title: '麻雀サロンかっぱ',
+    description: '帯広市の麻雀サロン「かっぱ」。初心者から上級者まで楽しめるアットホームな麻雀店。',
+    url: 'https://kappa-mahjong.com',
+    siteName: '麻雀サロンかっぱ',
+    images: [
+      {
+        url: 'https://kappa-mahjong.com/images/logo.png',
+        width: 800,
+        height: 600,
+        alt: '麻雀サロンかっぱ',
+      }
+    ],
+    locale: 'ja_JP',
+    type: 'website',
+  },
   other: {
     'google-site-verification': 'yWALfRaTZdczKcF_ADUU-cTp07eZ0SlYeiWBOcT3FVg',
   },
@@ -18,9 +37,32 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
-      <head>
-        <meta name="google-site-verification" content="yWALfRaTZdczKcF_ADUU-cTp07eZ0SlYeiWBOcT3FVg" />
-      </head>
+<head>
+  <meta name="google-site-verification" content="yWALfRaTZdczKcF_ADUU-cTp07eZ0SlYeiWBOcT3FVg" />
+  
+  <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+      __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "麻雀サロンかっぱ",
+        "url": "https://kappa-mahjong.com",
+        "logo": "https://kappa-mahjong.com/images/logo.png",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "西二条南11丁目1 清水ビル3F",
+          "addressLocality": "帯広市",
+          "addressRegion": "北海道",
+          "postalCode": "080-0011",
+          "addressCountry": "JP"
+        },
+        "telephone": "+81-155-27-7337",
+        "openingHours": "Mo-Su 11:00-24:00"
+      })
+    }}
+  />
+</head>
       <body style={{ margin: 0, padding: 0, fontFamily: 'sans-serif' }}>
         <Header />
 
