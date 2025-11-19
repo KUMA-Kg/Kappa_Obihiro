@@ -4,9 +4,15 @@ import Header from '@/components/Header';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: '麻雀サロンかっぱ',
-  description: '帯広市の麻雀サロン「かっぱ」の公式ウェブサイト。初心者から上級者まで楽しめるアットホームな麻雀店です。',
-};
+  title: '麻雀サロンかっぱ | 帯広市の全自動雀卓完備の麻雀店',
+  description: '帯広市の麻雀サロン「かっぱ」。Mリーグ採用のAMOS REXⅢ全自動雀卓を全卓完備。初心者から上級者まで楽しめるアットホームな雰囲気。JR帯広駅北口より徒歩3分。',
+  verification: {
+    google: 'yWALfRaTZdczKcF_ADUU-cTp07eZ0SlYeiWBOcT3FVg',
+  },
+  openGraph: {
+    title: '麻雀サロンかっぱ',
+    description: '帯広市の麻雀サロン。初心者から上級者まで楽しめるアットホームな麻雀店。',
+    siteName: '麻雀サロンかっぱ',
 
 export default function RootLayout({
   children,
