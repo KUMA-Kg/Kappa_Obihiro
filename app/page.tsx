@@ -1,4 +1,5 @@
 import BannerSlideshow from '../components/BannerSlideshow';
+import MonthlyEvent from '@/components/MonthlyEvent';  
 
 export default function Home() {
   return (
@@ -23,24 +24,32 @@ export default function Home() {
       <div style={{ maxWidth: '963px', margin: '0 auto', padding: '40px 20px' }}>
 
                 {/* ② ウェルカムテキスト */}
-        <div style={{ 
-          textAlign: 'center', 
-          margin: '40px 0', 
-          lineHeight: '1.8',
-          padding: '20px',
-          backgroundColor: 'rgba(255,255,255,0.7)',
-          borderRadius: '8px'
-        }}>
-          <p style={{ marginBottom: '20px' }}>
-            <strong style={{ fontSize: '20px' }}>帯広市の麻雀サロンかっぱの<br />
-            ホームページへようこそ！</strong><br /><br />
-            当店は初心者から上級者まで、<br />どなたでも楽しめるような<br />
-            アットホームな帯広市の麻雀店です！<br />
-            日本プロ麻雀連盟公式ルールの勉強会などの<br />イベントを
-            定期的に開催していますので、<br />皆様のご来店を<br />
-            スタッフ一同、心よりお待ちしております！
-          </p>
-        </div>
+  <div style={{
+  textAlign: 'center',
+  margin: '40px 0',
+  lineHeight: '1.8',
+  padding: '20px',
+  backgroundColor: 'rgba(255,255,255,0.7)',
+  borderRadius: '8px'
+}}>
+  <p style={{ marginBottom: '20px' }}>
+    <strong style={{ fontSize: '20px' }}>
+      帯広市の麻雀サロンかっぱの<br />
+      ホームページへようこそ！
+    </strong>
+    <br /><br />
+    当店は初心者から上級者まで、<br />
+    どなたでも楽しめるような<br />
+    アットホームな帯広市の麻雀店です！<br />
+    日本プロ麻雀連盟公式ルールの勉強会などの<br />
+    イベントを 定期的に開催していますので、<br />
+    皆様のご来店を<br />
+    スタッフ一同、心よりお待ちしております！
+  </p>
+  
+  {/* 月次イベント情報 */}
+  <MonthlyEvent />
+</div>
         
 {/* 雀卓紹介セクション - 新規追加 */}
 <div className="section" style={{
