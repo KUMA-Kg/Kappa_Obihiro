@@ -16,7 +16,7 @@ export default function MonthlyEvent() {
 
     // 画像の存在確認
     const img = new window.Image();
-    img.src = `/events/${monthStr}.jpg`;
+    img.src = `public/events/${monthStr}.jpg`;
     img.onload = () => setImageExists(true);
     img.onerror = () => setImageExists(false);
   }, []);
