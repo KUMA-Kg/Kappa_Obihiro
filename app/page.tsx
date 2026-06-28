@@ -201,7 +201,7 @@ export default function Home() {
   </div>
 </div>
 
-        {/* ④ STAFF紹介 */}
+       {/* ④ STAFF紹介 */}
         <div className="section" style={{
           backgroundColor: 'white',
           padding: '20px',
@@ -214,7 +214,7 @@ export default function Home() {
             日本プロ麻雀連盟 北海道本部所属の<br />
             プロ雀士をご紹介！
           </p>
-          
+ 
           <div style={{ 
             display: 'flex', 
             flexWrap: 'wrap', 
@@ -268,7 +268,8 @@ export default function Home() {
                 />
               </a>
             </div>
-</div>
+          </div>
+        </div>
        {/* ⑤ Instagram */}
 <div className="section" style={{
   backgroundColor: 'white',
