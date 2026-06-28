@@ -201,7 +201,7 @@ export default function Home() {
   </div>
 </div>
 
-       {/* ④ STAFF紹介 */}
+        {/* ④ STAFF紹介 */}
         <div className="section" style={{
           backgroundColor: 'white',
           padding: '20px',
@@ -244,6 +244,12 @@ export default function Home() {
                 />
               </div>
               <h3 style={{ color: '#007736', marginBottom: '10px' }}>植田 稔宏</h3>
+              <p style={{ fontSize: '14px', lineHeight: '1.7', marginBottom: '15px', textAlign: 'left' }}>
+                日本プロ麻雀連盟所属<br />
+                北海道本部所属<br /><br />
+                たくさんの方々に麻雀の楽しさを伝えていけたらと思います！<br /><br />
+                麻雀初心者の方にも親切・丁寧にご指導いたしますので、気軽に遊びに来てくださいね！
+              </p>
               <a 
                 href="https://x.com/2corosuce2" 
                 target="_blank" 
@@ -270,6 +276,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+        
        {/* ⑤ Instagram */}
 <div className="section" style={{
   backgroundColor: 'white',
