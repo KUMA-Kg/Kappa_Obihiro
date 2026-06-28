@@ -269,42 +269,6 @@ export default function Home() {
               </a>
             </div>
 
-              </div>
-              <p style={{ fontSize: '14px', lineHeight: '1.6', marginBottom: '15px' }}>
-                日本プロ麻雀連盟所属<br />
-                北海道本部所属<br /><br />
-                麻雀店にまだ足を踏み入れたことがない…<br/>
-                ひとりで行くのは不安…<br/>
-                大丈夫です！！<br/>かっぱはそんなあなたをスタッフ一同笑顔でお迎えいたしますので<br/>是非一度遊びに来てみてください！
-
-              </p>
-              <a 
-                href="https://x.com/satoshi19840502" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                style={{
-                  display: 'inline-flex',
-                  alignItems: 'center',
-                  padding: '8px',
-                  backgroundColor: '#e8e8e8',
-                  borderRadius: '50%',
-                  transition: 'background-color 0.3s'
-                }}
-              >
-                <img 
-                  src="/images/twitter-x.svg" 
-                  alt="X" 
-                  style={{ 
-                    width: '20px', 
-                    height: '20px',
-                    filter: 'brightness(0)'
-                  }} 
-                />
-              </a>
-            </div>
-          </div>
-        </div>
-
        {/* ⑤ Instagram */}
 <div className="section" style={{
   backgroundColor: 'white',
