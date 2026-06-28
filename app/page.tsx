@@ -212,7 +212,7 @@ export default function Home() {
           <h2 className="section-title">STAFF紹介</h2>
           <p style={{ marginBottom: '20px', fontWeight: 'bold' }}>
             日本プロ麻雀連盟 北海道本部所属の<br />
-            2名をご紹介！
+            プロ雀士をご紹介！
           </p>
           
           <div style={{ 
@@ -277,28 +277,7 @@ export default function Home() {
               </a>
             </div>
 
-            {/* プロ2: 髙橋聡志 */}
-            <div style={{ 
-              width: '280px',
-              backgroundColor: '#f9f9f9',
-              padding: '20px',
-              borderRadius: '8px',
-              boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
-            }}>
-              <div style={{ marginBottom: '15px' }}>
-                <img 
-                  src="/images/pro2.jpg" 
-                  alt="髙橋聡志プロ" 
-                  style={{ 
-                    width: '150px', 
-                    height: '150px', 
-                    borderRadius: '50%',
-                    objectFit: 'cover',
-                    border: '3px solid #007736'
-                  }} 
-                />
               </div>
-              <h3 style={{ color: '#007736', marginBottom: '10px' }}>髙橋 聡志</h3>
               <p style={{ fontSize: '14px', lineHeight: '1.6', marginBottom: '15px' }}>
                 日本プロ麻雀連盟所属<br />
                 北海道本部所属<br /><br />
