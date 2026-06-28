@@ -268,7 +268,7 @@ export default function Home() {
                 />
               </a>
             </div>
-
+</div>
        {/* ⑤ Instagram */}
 <div className="section" style={{
   backgroundColor: 'white',
